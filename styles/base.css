@@ -3,21 +3,56 @@ background-color: #d52e3f;
 }
 
 .FirstImage {
-  width: 25%;
+  width: 50%;
   margin-left: 25%;
+  margin-bottom: 18%;
   height: 25%;
+  border: 10px solid #ddd;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 .SecondImage {
-  width: 25%;
+  width: 50%;
   margin-left: 25%;
   height: 25%;
+  border: 10px solid #ddd;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 .ThirdImage {
-  width: 25%;
+  width: 50%;
   margin-left: 25%;
   height: 25%;
+  border: 10px solid #ddd;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+}
+
+.text1 {
+  margin-left: 40%;
+  font-size: 1.7em;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.text2 {
+  margin-left: 40%;
+  font-size: 1.7em;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.text3 {
+  margin-left: 40%;
+  font-size: 1.7em;
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 #heading {
@@ -36,4 +71,24 @@ background-color: #d52e3f;
                   35px 35px 0px #c11a2b,
                   40px 40px 0px #c11a2b,
                   45px 45px 0px #c11a2b;
+}
+
+.button {
+  margin-left: 32%;
+  margin-top: 10%;
+  font-size: 1.2rem;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: lightseagreen;
+  border: 2px solid darken(palevioletred, 15%);
+  padding: 30px 60px;
+  border-radius: 45px;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 4px darkgray;
+  transition: all 0.2s ease-in;
+  z-index: 1;
 }
