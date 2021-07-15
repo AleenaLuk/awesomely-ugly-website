@@ -1,5 +1,5 @@
 body {
-background-color: #d52e3f;
+background-image: url(https://media2.giphy.com/media/dZLWXI8VO0oSurblwN/200w.webp?cid=ecf05e47vd385l93a4bsnv8xd6il47c7uqkjodf2easmvhvh&rid=200w.webp&ct=g);
 }
 
 .FirstImage {
@@ -73,22 +73,17 @@ background-color: #d52e3f;
                   45px 45px 0px #c11a2b;
 }
 
-.button {
+#button {
   margin-left: 32%;
   margin-top: 10%;
   font-size: 1.2rem;
-  position: relative;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
   cursor: pointer;
   background: lightseagreen;
-  border: 2px solid darken(palevioletred, 15%);
   padding: 30px 60px;
   border-radius: 45px;
   color: white;
-  overflow: hidden;
   box-shadow: 0 2px 4px darkgray;
-  transition: all 0.2s ease-in;
-  z-index: 1;
 }
